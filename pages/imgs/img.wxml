@@ -1,0 +1,19 @@
+<block wx:for="{{userInfo}}">
+  <view class="container">
+    <view class="layout_horizontal">
+      <view style="width:70px">
+        <image class="userinfo-avatar" src="{{item.picture.large}}" mode="cover"></image>
+      </view>  
+      <view style="width:240px" class="layout_vertical">
+        <view class="layout_horizontal">
+          <view>name:</view>
+          <text class="userinfo-nickname">{{item.name.first}} {{item.name.last}}</text>
+        </view>
+        <view class="layout_horizontal">
+          <view>address:</view>
+          <text class="userinfo-nickname">{{item.location.city}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</block>

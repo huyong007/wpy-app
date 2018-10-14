@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/imgs/img",
+    "pages/time/time",
+    "pages/feeling/feeling",
+    "pages/daily/daily",
+    "pages/pic/pic",
+    "pages/money/money",
+    "pages/discovery/discovery",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "有迹",
+        "iconPath": "images/icon_write.png",
+        "selectedIconPath": "images/icon_write_active.png"
+      },
+      {
+        "pagePath": "pages/discovery/discovery",
+        "text": "发现",
+        "iconPath": "images/icon_discovery.png",
+        "selectedIconPath": "images/icon_discovery_active.png"
+      },
+      {
+        "pagePath": "pages/feedback/feedback",
+        "text": "反馈",
+        "iconPath": "images/icon_feedback.png",
+        "selectedIconPath": "images/icon_feedback_active.png"
+      }
+    ]
+  }
+}
