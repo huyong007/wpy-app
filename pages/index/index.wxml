@@ -1,9 +1,5 @@
 
-<i-button bind:click="timeClick">时间有迹</i-button> 
- <i-button bind:click="feelingClick">心情有迹</i-button>
-<i-button bind:click="dailyClick">日记有迹</i-button>
-<i-button bind:click="picClick">图片有迹</i-button>
-<i-button bind:click="moneyClick">花销有迹</i-button> 
-<i-button bind:click="iviewClick">导航到iView创建的列表页</i-button>
-<i-button bind:click="primordialClick">导航到原生创建的列表页</i-button>
-
+<view wx:for="{{topics}}" wx:for-index="idx" wx:for-item="item" wx:key>
+ <image src="{{item.author.avatar_url}}" style="width: 80px; height: 80px; background-color: #eeeeee;" />
+ <span class='title'>{{item.title}}</span>
+</view>

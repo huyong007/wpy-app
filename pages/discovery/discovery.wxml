@@ -1,7 +1,0 @@
-<i-cell-group>
-  <i-cell title="时间记录 列表" is-link url="/pages/imgs/img"></i-cell>
-  <i-cell title="心情记录 列表" is-link url="/pages/imgs/img"></i-cell>
-  <i-cell title="日记记录 列表" is-link url="/pages/imgs/img"></i-cell>
-  <i-cell title="图片记录 列表" is-link url="/pages/imgs/img"></i-cell>
-  <i-cell title="花销记录 列表" is-link url="/pages/imgs/img"></i-cell>
-</i-cell-group>

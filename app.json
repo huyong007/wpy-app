@@ -1,13 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/imgs/img",
-    "pages/time/time",
-    "pages/feeling/feeling",
-    "pages/daily/daily",
-    "pages/pic/pic",
-    "pages/money/money",
     "pages/discovery/discovery",
     "pages/feedback/feedback"
   ],

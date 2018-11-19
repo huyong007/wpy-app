@@ -1,5 +1,0 @@
-<i-cell-group wx:for="{{userInfo}}">
-  <i-row>
-    <i-col span="7" i-class="col-class">this is a page !</i-col>
-  </i-row>
-</i-cell-group>
