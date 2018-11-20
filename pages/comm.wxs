@@ -1,0 +1,11 @@
+var foo = 'hello weChat';
+var bar = function (params) {
+    return params;
+}
+
+module.exports = {
+    foo:foo,
+    bar :bar
+};
+
+module.exports.msg = 'weChat';
