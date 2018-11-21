@@ -5,7 +5,7 @@ const app = getApp()
 Page({
   data: {
     isHidden: true,
-    isIf:false,
+    isIf: false,
     topics: [],
     array: [{
       message: 'foo',
@@ -14,14 +14,20 @@ Page({
     }]
   },
 
-  click:function() {
-    var that =this;
+  click: function () {
+    var that = this;
     var isHidden = that.data.isHidden
     var isIf = that.data.isIf
     that.setData({
-      isHidden : !isHidden,
-      isIf:!isIf
+      isHidden: !isHidden,
+      isIf: !isIf
     })
+  },
+
+
+  onClick: function (e) {
+    console.log(e);
+
   },
 
   onLoad: function () {
@@ -53,6 +59,6 @@ Page({
     })
   },
 
-  
+
 
 })

@@ -1,12 +1,13 @@
-<view
- wx:for="{{topics}}"
- wx:for-index="idx"
- wx:for-item="item"
- wx:key
->
-	<image src="{{item.author.avatar_url}}" style="width: 80px; height: 80px; background-color: #eeeeee;" />
-	<span class='title'>{{item.title}}</span>
-</view>
+
+
+
+<block wx:for="{{topics}}" wx:for-index="idx" wx:for-item="item" wx:key="title">
+	<view>
+		<image src="{{item.author.avatar_url}}" style="width: 80px; height: 80px; background-color: #eeeeee;" />
+		<span class='title'>{{item.title}}</span>
+		<button id= "{{idx}}"  bindtap="onClick">点击</button>
+	</view>
+</block>
 <view hidden="{{isHidden}}">hidden属性测试</view>
 <view wx:if="{{isIf}}">if属性测试</view>
 <button bindtap="click">改变hidden绑定值</button>
